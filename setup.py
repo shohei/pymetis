@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-
+import os
+os.environ['MACOSX_DEPLOYMENT_TARGET']='10.7'
 
 def get_config_schema():
     from aksetup_helper import (ConfigSchema, Switch,
